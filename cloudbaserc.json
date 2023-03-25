@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "envId": "service-8g3j1hmh51085c77",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "framework": {
+    "name": "egg-starter",
+    "plugins": {
+      "node": {
+        "use": "@cloudbase/framework-plugin-node",
+        "inputs": {
+          "entry": "app.js",
+          "name": "egg-starter",
+          "path": "/egg-starter"
+        }
+      }
+    }
+  },
+  "functionRoot": "./functions",
+  "functions": [],
+  "region": "ap-shanghai"
+}
